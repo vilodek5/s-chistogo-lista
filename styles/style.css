@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: #1e1e1e;
-  font-family: "Inter Regular", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
 
@@ -25,6 +25,7 @@ img {
 
 .content-section {
   box-sizing: border-box;
+  display: flex;
   width: 360px;
   margin: 0 auto;
 }
@@ -41,12 +42,12 @@ img {
 }
 
 .header {
-  display: flex;
   justify-content: space-between;
   padding: 24px 20px;
 }
 
 .header__logo {
+  display: block;
   width: 78px;
 }
 
@@ -73,16 +74,16 @@ img {
 }
 
 .cover {
-  height: 228px;
-  padding: 7px 24px 0 20px;
-  background-image: url("/images/cover.svg");
+  display: block;
+  padding: 7px 24px 5px 20px;
+  background-image: url("../images/cover.svg");
   background-repeat: no-repeat;
   background-size: 95% auto;
   background-position: bottom right;
 }
 
 .cover__title {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   font-size: 72px;
   font-weight: 400;
   line-height: 100%;
@@ -102,7 +103,6 @@ img {
 }
 
 .intro {
-  display: flex;
   flex-direction: column;
   gap: 24px 0;
   padding: 30px 20px 37px 20px;
@@ -134,14 +134,13 @@ img {
 }
 
 .reasons {
-  display: flex;
   flex-direction: column;
   gap: 32px 0;
   padding: 40px 20px;
 }
 
 .content-section__subtitle {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   font-size: 28px;
   font-weight: 500;
   line-height: 115%;
@@ -169,7 +168,6 @@ img {
 }
 
 .how-to {
-  display: flex;
   flex-direction: column;
   gap: 32px 0;
   padding: 40px 20px 60px;
@@ -208,7 +206,7 @@ img {
 }
 
 .card__title {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 135%;
@@ -225,7 +223,6 @@ img {
 }
 
 .footer {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
